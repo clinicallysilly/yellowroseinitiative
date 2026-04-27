@@ -118,6 +118,11 @@ header .navbar {
 }
 
 .about-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-8%, 15%);
+    margin: 30px, 30px;
     font-family: 'Balsamiq Sans', sans-serif;
     font-size: var(--font-size-m);
     color: var(--black);
