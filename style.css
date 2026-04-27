@@ -112,15 +112,29 @@ header .navbar {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-20%, -50%);
+    transform: translate(-8%, -50%);
     color: var(--light-yellow);
     font-size: var(--font-size-xxl);
 }
 
 .about-text {
-    font-family: 'Balsamiq Sans';
+    font-family: 'Balsamiq Sans', sans-serif;
     font-size: var(--font-size-m);
     color: var(--black);
     background: var(--yellow);
     border-radius: var(--border-radius-s);
+}
+
+.section-title {
+    font-family: 'Calistoga', serif;
+    font-size: var(--font-size-xl);
+    color: var(--black);
+    background: var(--dark-yellow);
+    border-radius: var(--border-radius-s);
+}
+
+.collaborators {
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: var(--font-size-m);
+    color: var(--black);
 }
