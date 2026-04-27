@@ -67,6 +67,7 @@ img {
 /* navbar */
 header {
     background: var(--dark-yellow);
+    position: sticky;
 }
 
 header .navbar {
@@ -104,7 +105,7 @@ header .navbar {
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: var(--light-yellow);
 }
 
 .centered {
